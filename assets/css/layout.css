@@ -1,0 +1,75 @@
+.player {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+.player1:before {
+    content: "player 1";
+}
+.player1 {
+    top: 100px;
+    left: 225px;
+    position: absolute;
+}
+.player2:before {
+    content: "player 2";
+}
+.player2 {
+    top: 100px;
+    right: 219px;
+    position: absolute;
+}
+.control {
+    width: 300px;
+    height: 170px;
+    border: 1px solid black;
+    position: fixed;
+    top: 250px;
+}
+.player1 .control {
+    left: 130px;
+
+}
+.player2 .control {
+     right: 125px;
+
+}
+.key {
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    position: absolute;
+    font-size: 60px;
+    line-height: 60px;
+}
+.up {
+    left: 115px;
+    top: 10px;
+}
+.down {
+    left: 115px;
+    top: 85px;
+}
+.left {
+    left: 40px;
+    top: 85px;
+}
+.right {
+    left: 190px;
+    top: 85px;
+}
+.up:before {
+    content: '\002191';
+}
+.down:before {
+    content: '\002193';
+}
+.left:before {
+    content: '\002190';
+}
+.right:before {
+    content: '\002192';
+}
